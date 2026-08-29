@@ -2,6 +2,10 @@
 
 A tiny mobile-first site for following two beginner dumbbell workout plans at home. No backend, no build step — just static HTML/CSS/JS, deployed via GitHub Pages.
 
+## Why this exists
+
+A few people asked for a simple way to follow a structured dumbbell workout on their phone without signing up for a fitness app subscription, creating an account, or handing over any personal data. This is that: free, no login, no tracking, no ads — just open the link and go.
+
 ## Structure
 
 ```

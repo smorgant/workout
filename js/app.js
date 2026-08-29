@@ -1,7 +1,22 @@
 // Generic single-card carousel engine, shared by the workout and cooldown phases.
+// Exercise data is loaded from data/workouts.json at runtime.
 
-function initWorkout(workoutTitle, exercises, cooldownExercises) {
+async function initWorkout(workoutTitle, workoutKey) {
   const root = document.getElementById("app");
+  root.innerHTML = `<div class="loading">Loading workout…</div>`;
+
+  let data;
+  try {
+    const res = await fetch("data/workouts.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+  } catch (err) {
+    root.innerHTML = `<div class="loading">Couldn't load workout data. ${err.message}</div>`;
+    return;
+  }
+
+  const exercises = data[workoutKey];
+  const cooldownExercises = data.cooldown;
 
   let phase = "workout"; // "workout" | "cooldown" | "done"
   let index = 0;

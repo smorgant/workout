@@ -9,27 +9,26 @@ A few people asked for a simple way to follow a structured dumbbell workout on t
 ## Structure
 
 ```
-index.html      Home page (choose a workout)
-his.html        "His Workout" — full-body session
-her.html        "Her Workout" — core/glute/leg focused session
-css/style.css   All styling
-js/workouts.js  Exercise + cooldown data
-js/app.js       Single-card carousel engine (shared by both workouts)
+index.html          Home page (choose a workout)
+his.html            "His Workout" — full-body session
+her.html            "Her Workout" — core/glute/leg focused session
+css/style.css       All styling
+data/workouts.json  Exercise + cooldown data
+js/app.js           Fetches the JSON and drives the single-card carousel
 ```
 
 ## Editing a workout
 
-Everything about an exercise — reps, weight, rest, video, tips — lives in [js/workouts.js](js/workouts.js) as plain objects. Edit the arrays `hisWorkout`, `herWorkout`, or `cooldown`; no HTML changes needed.
+Everything about an exercise — reps, weight, rest, video, tips — lives in [data/workouts.json](data/workouts.json). Edit the `his`, `her`, or `cooldown` arrays; no HTML or JS changes needed.
 
 ### Adding a demonstration video
 
 Each exercise has a `video` field. Set it to a YouTube video ID (the part after `v=` in a YouTube URL, e.g. `dQw4w9WgXcQ`):
 
-```js
+```json
 {
-  name: "Goblet Squat",
-  video: "dQw4w9WgXcQ",
-  ...
+  "name": "Goblet Squat",
+  "video": "dQw4w9WgXcQ"
 }
 ```
 
@@ -37,7 +36,7 @@ Leave it as `""` to show a "search on YouTube" fallback link instead of an embed
 
 ## Running locally
 
-Any static file server works, e.g.:
+The page loads `data/workouts.json` via `fetch()`, which requires a real HTTP server — opening `index.html` directly (`file://`) won't work. Any static file server does the job:
 
 ```
 python3 -m http.server 8000

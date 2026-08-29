@@ -2,7 +2,7 @@
 // (the part after v= in a YouTube URL) to enable the embedded demo player.
 // Leave it as "" to show a "Search on YouTube" fallback link instead.
 
-const myWorkout = [
+const hisWorkout = [
   {
     name: "Goblet Squat",
     reps: "10–12",
@@ -138,7 +138,7 @@ const myWorkout = [
   }
 ];
 
-const wifeWorkout = [
+const herWorkout = [
   {
     name: "Goblet Squat",
     reps: "10–12",

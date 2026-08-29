@@ -6,8 +6,8 @@ A tiny mobile-first site for following two beginner dumbbell workout plans at ho
 
 ```
 index.html      Home page (choose a workout)
-me.html         "My Workout" — full-body session
-wife.html       "Wife's Workout" — core/glute/leg focused session
+his.html        "His Workout" — full-body session
+her.html        "Her Workout" — core/glute/leg focused session
 css/style.css   All styling
 js/workouts.js  Exercise + cooldown data
 js/app.js       Single-card carousel engine (shared by both workouts)
@@ -15,7 +15,7 @@ js/app.js       Single-card carousel engine (shared by both workouts)
 
 ## Editing a workout
 
-Everything about an exercise — reps, weight, rest, video, tips — lives in [js/workouts.js](js/workouts.js) as plain objects. Edit the arrays `myWorkout`, `wifeWorkout`, or `cooldown`; no HTML changes needed.
+Everything about an exercise — reps, weight, rest, video, tips — lives in [js/workouts.js](js/workouts.js) as plain objects. Edit the arrays `hisWorkout`, `herWorkout`, or `cooldown`; no HTML changes needed.
 
 ### Adding a demonstration video
 

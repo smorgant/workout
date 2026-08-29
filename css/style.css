@@ -82,11 +82,11 @@ a {
   transform: scale(0.98);
 }
 
-.home-btn.mine {
+.home-btn.his {
   border-color: var(--accent);
 }
 
-.home-btn.wife {
+.home-btn.her {
   border-color: var(--accent-2);
 }
 

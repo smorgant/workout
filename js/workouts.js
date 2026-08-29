@@ -8,7 +8,7 @@ const hisWorkout = [
     reps: "10–12",
     weight: "8 kg total",
     rest: "30–45 sec",
-    video: "",
+    video: "dxtgqrJC6gI",
     tips: [
       "Keep chest upright",
       "Hold one dumbbell close to the chest",
@@ -21,7 +21,7 @@ const hisWorkout = [
     reps: "10–12",
     weight: "6–8 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "5WxMW-Fu5KU",
     tips: [
       "Keep the spine neutral",
       "Slight bend in the knees",
@@ -35,7 +35,7 @@ const hisWorkout = [
     reps: "10 each side",
     weight: "6–8 kg",
     rest: "30–45 sec",
-    video: "",
+    video: "8iMJWCAIV78",
     tips: [
       "Keep the back neutral",
       "Pull the elbow toward the hip",
@@ -48,7 +48,7 @@ const hisWorkout = [
     reps: "10–12",
     weight: "5–8 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "T0Y3OBF1bNI",
     tips: [
       "Lie flat on the floor",
       "Keep feet planted",
@@ -61,7 +61,7 @@ const hisWorkout = [
     reps: "10",
     weight: "3–5 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "M2rwvNhTOu0",
     tips: [
       "Brace the core",
       "Avoid leaning backwards",
@@ -74,7 +74,7 @@ const hisWorkout = [
     reps: "8–10 each leg",
     weight: "Bodyweight, then 3–5 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "Q2k3kYbtOcI",
     tips: [
       "Step backwards",
       "Lower the back knee toward the floor",
@@ -87,7 +87,7 @@ const hisWorkout = [
     reps: "12–15",
     weight: "2–3 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "3gJXpfwg_go",
     tips: [
       "Slight bend in the knees",
       "Hinge forward at the hips",
@@ -101,7 +101,7 @@ const hisWorkout = [
     reps: "12–15",
     weight: "8 kg total",
     rest: "30–45 sec",
-    video: "",
+    video: "cruqsnAyU6A",
     tips: [
       "Lie on the floor",
       "Place one dumbbell across the hips",
@@ -115,7 +115,7 @@ const hisWorkout = [
     reps: "30–40 sec",
     weight: "8 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "8OtwXwrJizk",
     tips: [
       "Stand tall",
       "Keep shoulders relaxed",
@@ -128,7 +128,7 @@ const hisWorkout = [
     reps: "8–10 each side",
     weight: "Bodyweight",
     rest: "30 sec",
-    video: "",
+    video: "psOZS-sVDww",
     tips: [
       "Keep the lower back gently against the floor",
       "Move opposite arm and leg",
@@ -157,7 +157,7 @@ const herWorkout = [
     reps: "12–15",
     weight: "3–5 kg total",
     rest: "30–45 sec",
-    video: "",
+    video: "cruqsnAyU6A",
     tips: [
       "Keep feet planted",
       "Drive the hips upward",
@@ -170,7 +170,7 @@ const herWorkout = [
     reps: "8–10 each side",
     weight: "Bodyweight",
     rest: "30 sec",
-    video: "",
+    video: "psOZS-sVDww",
     tips: [
       "Keep the lower back controlled",
       "Move slowly",
@@ -183,7 +183,7 @@ const herWorkout = [
     reps: "8 each leg",
     weight: "Bodyweight",
     rest: "30–45 sec",
-    video: "",
+    video: "Q2k3kYbtOcI",
     tips: [
       "Step backwards",
       "Keep balance",
@@ -210,7 +210,7 @@ const herWorkout = [
     reps: "10–12",
     weight: "2–4 kg per dumbbell",
     rest: "30–45 sec",
-    video: "",
+    video: "5WxMW-Fu5KU",
     tips: [
       "Keep the spine neutral",
       "Push the hips backwards",
@@ -249,7 +249,7 @@ const herWorkout = [
     reps: "8–10 each side",
     weight: "2–4 kg",
     rest: "30–45 sec",
-    video: "",
+    video: "8iMJWCAIV78",
     tips: [
       "Keep back neutral",
       "Pull toward the hip",
